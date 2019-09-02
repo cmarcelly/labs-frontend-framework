@@ -1,0 +1,26 @@
+// Tailwind directives
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+
+/*! purgecss start ignore */
+
+@import 
+    // Mixins
+    'mixins/layouts';
+
+@import 
+    // Base
+    'base/variables',
+    'base/global',
+    'base/fonts',
+    'base/typography';
+
+@import
+    // Components
+    'components/header',
+    'components/footer',
+    'components/content',
+    'components/navigation';
+
+/*! purgecss end ignore */
